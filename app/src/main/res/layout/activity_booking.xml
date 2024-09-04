@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="355dp"
+        app:srcCompat="@drawable/dinner" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginBottom="16dp"
+        android:text="Book a Table"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/bookingDate"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Date (dd/MM/yyyy)"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/bookingTime"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:hint="Time (HH:mm)"
+        android:inputType="time" />
+
+    <EditText
+        android:id="@+id/numberOfGuests"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:hint="Number of Guests"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/confirmBookingButton"
+        android:layout_width="277dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Confirm Booking" />
+
+</LinearLayout>
